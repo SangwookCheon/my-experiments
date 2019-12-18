@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.globe {
+  height: 100vmin;
+  width: auto;
+  cursor: grab;
+}
+
+.globe--dragging {
+  cursor: grabbing;
+}
